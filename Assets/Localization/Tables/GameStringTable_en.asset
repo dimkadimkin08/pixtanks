@@ -1,0 +1,476 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameStringTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3db2011c7f86b625d92d40264092200c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21239747403776
+    m_Localized: Message...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24659313123328
+    m_Localized: '[user] joined'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24791777632256
+    m_Localized: '[user] left'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64328851611648
+    m_Localized: Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64376524070912
+    m_Localized: Resume game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64470375817216
+    m_Localized: Leave game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64592459423744
+    m_Localized: Players ({playersCount})
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64660839161856
+    m_Localized: Audio volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64730477191168
+    m_Localized: Camera zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64916167417856
+    m_Localized: World-space interface scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65230463393792
+    m_Localized: Target framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65361506033664
+    m_Localized: High Framerate Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65700749729792
+    m_Localized: Chat font size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66406718201856
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66446404706304
+    m_Localized: Host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66512293027840
+    m_Localized: Join game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66513593262080
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66756342800384
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66808247312384
+    m_Localized: Go back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66926979670016
+    m_Localized: Players limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66998702268416
+    m_Localized: Disconnect AFK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67221994430464
+    m_Localized: AFK Timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67329901289472
+    m_Localized: Port
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67431508303872
+    m_Localized: Launch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67532536504320
+    m_Localized: Host game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67765974687744
+    m_Localized: Join game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67842973720576
+    m_Localized: Address
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67882773471232
+    m_Localized: Port
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67917254844416
+    m_Localized: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404609933336576
+    m_Localized: Player name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420043210448896
+    m_Localized: Connecting...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420120113012736
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420181421154304
+    m_Localized: Disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420243064840192
+    m_Localized: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420283661508608
+    m_Localized: Connection Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420430315347968
+    m_Localized: The server is running a different version of the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420587526250496
+    m_Localized: Player name is already taken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420767025684480
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420764932726784
+    m_Localized: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 475467083243520
+    m_Localized: '>en<'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 475594841743360
+    m_Localized: ru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1529377449402368
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359089650294784
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359092552753152
+    m_Localized: Max-window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359093873958912
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4020233838354432
+    m_Localized: Control size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035495268933632
+    m_Localized: Server paswword
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035582074249216
+    m_Localized: Password (if required)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035703398686720
+    m_Localized: Wrong password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8061152338206720
+    m_Localized: Allow commands
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8061366365151232
+    m_Localized: Command password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19420280704819200
+    m_Localized: Select team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110850387402752
+    m_Localized: Common
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110993958428672
+    m_Localized: Machine Gun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111516342214656
+    m_Localized: Flame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111815442227200
+    m_Localized: Laser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112231609458688
+    m_Localized: Heavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112521951764480
+    m_Localized: Shotgun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112871437950976
+    m_Localized: Drone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111312176078848
+    m_Localized: Highest fire rate, above-average HP, below-average mobility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111595509702656
+    m_Localized: Low HP, high mobility, attacks only in melee range, ignites enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111892579672064
+    m_Localized: Medium HP, medium mobility, fires a powerful piercing laser with
+      a delay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112355345620992
+    m_Localized: Highest HP, low mobility, attacks with a powerful explosive shell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112608241180672
+    m_Localized: High HP, good mobility, attacks with a powerful explosion at very
+      close range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112929461952512
+    m_Localized: Low HP, medium mobility, attacks using drones that fire small explosive
+      shells
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110930544746496
+    m_Localized: Good mobility, fast firing, medium HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114883000983552
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114921626329088
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114964932517888
+    m_Localized: Max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27615580819849216
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28470761241477120
+    m_Localized: Host locally
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28471009888206848
+    m_Localized: Manual connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28471564584910848
+    m_Localized: Servers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726030206795776
+    m_Localized: Current server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726720262078464
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726837224439808
+    m_Localized: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29195821975633920
+    m_Localized: Server selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29448421174181888
+    m_Localized: Refresh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30640571870117888
+    m_Localized: Enter any name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30640895116738560
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30641060863049728
+    m_Localized: Welcome to PixTanks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31582322667585536
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31582395904327680
+    m_Localized: Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35719533990281216
+    m_Localized: World size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37047116006719488
+    m_Localized: Server not selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72998912193495040
+    m_Localized: Splash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72999040178487296
+    m_Localized: High HP, low mobility, close range, causes a strong shockwave in
+      a short radius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112536319213207552
+    m_Localized: To menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113631309599375360
+    m_Localized: ua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114349736400027648
+    m_Localized: 'Shop [E]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114732620021530624
+    m_Localized: 'menu [p]  |  shop [e]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114732682684432384
+    m_Localized: 'show/hide [c]  |  message [enter]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128439732270563328
+    m_Localized: Zapper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128439909261803520
+    m_Localized: Good mobility, low HP. Short range. Can heal self and allies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146533721360072704
+    m_Localized: 'view stats [tab]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148397389613924352
+    m_Localized: 'Upgrade [X]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148740369242435584
+    m_Localized: 'Alternative Controls [Ctrl, Shift]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158369180495151104
+    m_Localized: Polygon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159963630392606720
+    m_Localized: Arena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163249904645865472
+    m_Localized: Manage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163251650608791552
+    m_Localized: Create Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163253058250768384
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163253281228357632
+    m_Localized: Stop Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163254079576375296
+    m_Localized: Delete Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163254844495790080
+    m_Localized: Add Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164005374398595072
+    m_Localized: 'lobbies (admin) [m]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165088445948526592
+    m_Localized: Select map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166598817641693184
+    m_Localized: Add players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172473772719767552
+    m_Localized: Drill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172474064093872128
+    m_Localized: Fast but not agile, average durability, high damage at close range,
+      ability to parry bullets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174287430017908736
+    m_Localized: Slime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175897768270266368
+    m_Localized: Mortar
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

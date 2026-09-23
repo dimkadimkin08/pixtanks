@@ -1,0 +1,478 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GameStringTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GameStringTable
+  m_TableCollectionNameGuidString: 3db2011c7f86b625d92d40264092200c
+  m_Entries:
+  - m_Id: 21239747403776
+    m_Key: Chat Input Field Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24659313123328
+    m_Key: Chat System Message User Join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24791777632256
+    m_Key: Chat System Message User Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64328851611648
+    m_Key: Pause Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64376524070912
+    m_Key: Pause Resume Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64470375817216
+    m_Key: Pause Disconnect Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64592459423744
+    m_Key: Pause Player List Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64660839161856
+    m_Key: Settings Audio Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64730477191168
+    m_Key: Settings Camera Zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64916167417856
+    m_Key: Settings World Space Interface Scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65230463393792
+    m_Key: Settings Target Framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65361506033664
+    m_Key: Settings Mobile High Framerate Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65700749729792
+    m_Key: Settings Chat Font Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66406718201856
+    m_Key: Settings Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66446404706304
+    m_Key: Main Menu Host Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66512293027840
+    m_Key: Main Menu Client Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66513593262080
+    m_Key: Main Menu Settings Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66756342800384
+    m_Key: Main Menu Exit Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66808247312384
+    m_Key: Back Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66926979670016
+    m_Key: Host Menu Players Limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66998702268416
+    m_Key: Host Menu Disconnect Inactive Players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67221994430464
+    m_Key: Host Menu Disconnect Inactive Players Timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67329901289472
+    m_Key: Host Menu Port
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67431508303872
+    m_Key: Host Menu Launch Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67532536504320
+    m_Key: Host Menu Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67765974687744
+    m_Key: Client Menu Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67842973720576
+    m_Key: Client Menu Address
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67882773471232
+    m_Key: Client Menu Port
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67917254844416
+    m_Key: Client Menu Connect Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404609933336576
+    m_Key: Player Name Input Field Placeholder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420043210448896
+    m_Key: Client State Connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420120113012736
+    m_Key: Client State Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420181421154304
+    m_Key: Client State Disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420243064840192
+    m_Key: Client State Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420283661508608
+    m_Key: Client State Connection Failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420430315347968
+    m_Key: Client State Server Different Version Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420587526250496
+    m_Key: Client State Username Taken Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420764932726784
+    m_Key: Client State Ok Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420767025684480
+    m_Key: Client State Cancel Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 475467083243520
+    m_Key: Language Option English
+    m_Metadata:
+      m_Items: []
+  - m_Id: 475594841743360
+    m_Key: Language Option Russian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1529377449402368
+    m_Key: Shop Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359089650294784
+    m_Key: Settings Menu Desktop Fullscreen Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359092552753152
+    m_Key: Settings Menu Desktop Max Window Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2359093873958912
+    m_Key: Settings Menu Desktop Windowed Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4020233838354432
+    m_Key: Settings Menu Mobile Control Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035495268933632
+    m_Key: Host Menu Password Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035582074249216
+    m_Key: Client Menu Password Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8035703398686720
+    m_Key: Client State Wrong Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8061152338206720
+    m_Key: Host Menu Commands Toggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8061366365151232
+    m_Key: Host Menu Commands Password Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19420280704819200
+    m_Key: Select Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110850387402752
+    m_Key: Shop Item Common Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110930544746496
+    m_Key: Shop Item Common Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25110993958428672
+    m_Key: Shop Item DualGun Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111312176078848
+    m_Key: 'Shop Item DualGun Tank Description
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111516342214656
+    m_Key: Shop Item Flame Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111595509702656
+    m_Key: Shop Item Flame Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111815442227200
+    m_Key: Shop Item RailGun Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25111892579672064
+    m_Key: Shop Item RailGun Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112231609458688
+    m_Key: Shop Item Heavy Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112355345620992
+    m_Key: Shop Item Heavy Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112521951764480
+    m_Key: Shop Item ShotGun Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112608241180672
+    m_Key: Shop Item ShotGun Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112871437950976
+    m_Key: Shop Item Drone Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25112929461952512
+    m_Key: Shop Item Drone Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114883000983552
+    m_Key: Shop Buy Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114921626329088
+    m_Key: Shop Upgrade Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25114964932517888
+    m_Key: Shop Max Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27615580819849216
+    m_Key: Main Menu Play Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28470761241477120
+    m_Key: Servers Menu Host Locally Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28471009888206848
+    m_Key: Servers Menu Manual Connect Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28471564584910848
+    m_Key: Start Menu Servers Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726030206795776
+    m_Key: Official Servers UI Current Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726720262078464
+    m_Key: Official Servers UI Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28726837224439808
+    m_Key: Official Servers UI Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29195821975633920
+    m_Key: Servers Menu Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29448421174181888
+    m_Key: Servers Menu Refresh Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30640571870117888
+    m_Key: Welcome Menu Name Request
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30640895116738560
+    m_Key: Continue Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30641060863049728
+    m_Key: Welcome Menu Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31582322667585536
+    m_Key: Guide Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31582395904327680
+    m_Key: Guide Shoot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35719533990281216
+    m_Key: Settings World Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37047116006719488
+    m_Key: Official Servers UI Server not selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72998912193495040
+    m_Key: Shop Item Splash Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72999040178487296
+    m_Key: Shop Item Splash Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112536319213207552
+    m_Key: To Menu Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113631309599375360
+    m_Key: Language Option Ukranian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114349736400027648
+    m_Key: Shop Text With HotKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114732620021530624
+    m_Key: Hotkeys Hint Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114732682684432384
+    m_Key: Hotkey Hints Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128439732270563328
+    m_Key: Shop Item Zap Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128439909261803520
+    m_Key: Shop Item Zap Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146533721360072704
+    m_Key: Arena Stats HotKey Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148397389613924352
+    m_Key: Player Upgrade HotKey Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148740369242435584
+    m_Key: Settings Alt Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158369180495151104
+    m_Key: Arena Asset Name Polygon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159963630392606720
+    m_Key: Arena Asset Name Arena
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163249904645865472
+    m_Key: Lobby Manage Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163251650608791552
+    m_Key: Lobby Create Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163253058250768384
+    m_Key: Lobby Start Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163253281228357632
+    m_Key: Lobby Stop Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163254079576375296
+    m_Key: Lobby Delete Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163254844495790080
+    m_Key: Lobby Add Player Button Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164005374398595072
+    m_Key: Controls Hint Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165088445948526592
+    m_Key: Lobby Select Map Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166598817641693184
+    m_Key: Lobby Add Players Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172473772719767552
+    m_Key: Shop Item Drill Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172474064093872128
+    m_Key: Shop Item Drill Tank Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174287430017908736
+    m_Key: Shop Item Slime Tank Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175897768270266368
+    m_Key: Shop Item Mortar Tank Label
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3443449826479177945
+  references:
+    version: 2
+    RefIds:
+    - rid: 3443449826479177945
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1734489995075

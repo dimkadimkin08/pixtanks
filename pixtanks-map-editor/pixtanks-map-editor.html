@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>PixTanks Map Editor</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            min-width: 900px;
+            min-height: 600px;
+            overflow: hidden;
+            font-family: sans-serif;
+            background: #1e1e1e;
+            color: #ddd;
+        }
+
+        .ui {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 320px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            background: #1a1a1a;
+            border-right: 1px solid #444;
+            z-index: 10;
+        }
+
+        .ui-scroll {
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        button,
+        input,
+        select {
+            background: #333;
+            border: 1px solid #555;
+            color: #ddd;
+            padding: 6px 8px;
+            border-radius: 6px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        button.active {
+            background: #4caf50;
+        }
+
+        #tiles,
+        #objects {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .tile-btn,
+        .obj-btn {
+            width: 40px;
+            height: 40px;
+            border: 2px solid transparent;
+            background: #222;
+            image-rendering: pixelated;
+        }
+
+        .tile-btn.active,
+        .obj-btn.active {
+            border-color: #4caf50;
+        }
+
+        .panel {
+            background: #111;
+            border: 1px solid #555;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            background: #111;
+            color: #0f0;
+            border: 1px solid #555;
+            padding: 6px;
+            font-family: monospace;
+        }
+
+        /* === MAP AREA === */
+        .map-area {
+            position: absolute;
+            left: 320px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            overflow: auto;
+            background: #0d0d0d;
+        }
+
+        .canvas-container {
+            position: relative;
+            margin: 0;
+        }
+
+        /* Только для карты */
+        #canvas,
+        #objectCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            image-rendering: pixelated;
+        }
+
+        /* Для UI canvas (кнопки) */
+        .tile-btn,
+        .obj-btn {
+            position: static;
+        }
+
+        #canvas {
+            z-index: 1;
+            border: 1px solid #555;
+        }
+
+        #objectCanvas {
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        select {
+            appearance: none;
+            padding-right: 20px;
+        }
+
+        .toolbar {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .tool-block {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            background: #111;
+            padding: 6px;
+            border: 1px solid #444;
+            border-radius: 6px;
+        }
+
+        .tool-block .row {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .tool-block input[type="number"] {
+            width: 60px;
+        }
+
+        .tool-block input[type="text"],
+        .tool-block input:not([type]) {
+            width: 100%;
+        }
+
+        .canvas-container {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ui">
+        <div class="ui-scroll">
+
+            <div class="toolbar">
+                <div class="tool-block">
+                    <div class="row">
+                        W:<input id="mapW" type="number" value="40" min="1">
+                        H:<input id="mapH" type="number" value="20" min="1">
+                        <button id="resizeBtn">Resize</button>
+                    </div>
+                </div>
+
+                <div class="tool-block">
+                    <input id="arenaId" placeholder="Arena ID">
+
+                    <div class="row">
+                        <button id="exportBtn">Export</button>
+                        <button id="importBtn">Import</button>
+                        <input type="file" id="importFile" accept=".json" style="display:none" />
+                    </div>
+                </div>
+
+                <div class="tool-block">
+                    <div id="zoomText">zoom: 1.6</div>
+                    <input type="range" min="0.7" max="3" value="1.6" step="0.1" id="zoomSlider">
+                </div>
+
+                <div id="coordsText">Cursor</div>
+            </div>
+
+            <div class="tool-block">
+                <div class="row">
+                    <button id="drawBtn" class="active">Draw</button>
+                    <button id="rectBtn">Rectangle</button>
+                    <button id="placeBtn">Objects</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <strong>Tiles</strong>
+                <div id="tiles"></div>
+            </div>
+
+            <div id="objectProps" class="panel">
+                <strong>Object Properties</strong>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MAP AREA -->
+    <div class="map-area">
+        <div class="canvas-container" id="canvasWrapper">
+            <canvas id="canvas"></canvas>
+            <canvas id="objectCanvas"></canvas>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        canvas.addEventListener("contextmenu", e => e.preventDefault());
+        const ctx = canvas.getContext('2d');
+
+        const objectCanvas = document.getElementById('objectCanvas');
+        const objectCtx = objectCanvas.getContext('2d');
+
+        ctx.imageSmoothingEnabled = false;
+        objectCtx.imageSmoothingEnabled = false;
+
+        const lastPlacedObjectSettings = {};
+
+        const TEAMS = {
+            green: { color: '#4CAF50' },
+            blue: { color: '#2196F3' },
+            red: { color: '#F44336' },
+            yellow: { color: '#fff23b' },
+            orange: { color: 'rgb(243, 97, 29)' },
+            white: { color: '#FAFAFA' },
+        };
+
+        const TEAM_KEYS = Object.keys(TEAMS);
+
+        const TILE_SIZE = 16;
+        let SCALE = 1.6;
+        let DRAW_SIZE = TILE_SIZE * SCALE;
+
+        let MAP_W = 40;
+        let MAP_H = 20;
+
+        let map;
+
+        function createMap(w, h) {
+            return Array.from({ length: h }, () =>
+                Array(w).fill(0)
+            );
+        }
+
+        map = createMap(MAP_W, MAP_H);
+
+        const PADDING = 200;
+
+        function resizeCanvas() {
+            const width = MAP_W * DRAW_SIZE;
+            const height = MAP_H * DRAW_SIZE;
+
+            canvas.width = width;
+            canvas.height = height;
+
+            objectCanvas.width = width;
+            objectCanvas.height = height;
+
+            const wrapper = document.getElementById("canvasWrapper");
+            wrapper.style.width = (width + PADDING * 2) + "px";
+            wrapper.style.height = (height + PADDING * 2) + "px";
+
+            canvas.style.left = PADDING + "px";
+            canvas.style.top = PADDING + "px";
+
+            objectCanvas.style.left = PADDING + "px";
+            objectCanvas.style.top = PADDING + "px";
+        }
+
+        resizeCanvas();
+
+        let currentTile = 0;
+        let mode = 'draw';
+
+        let mouseDown = false;
+        let startX = null;
+        let startY = null;
+        let previewX = null;
+        let previewY = null;
+
+        let hoverX = null;
+        let hoverY = null;
+
+        const coordsText = document.getElementById('coordsText');
+
+        const tileset = new Image();
+        tileset.src = 'tiles.png';
+
+        const placeableObjects = [
+            {
+                id: 'spawn',
+                sprite: 'spawn.png',
+                visualScale: 1,
+                metadata: { team: TEAM_KEYS[0], respawnDelay: 7 },
+                color: (obj) => TEAMS[obj.metadata.team]?.color ?? '#fff',
+                text: (obj) => 'respawn: ' + (obj.metadata.respawnDelay ?? '-') + 's',
+                rotatable: true
+            },
+            {
+                id: 'boost',
+                sprite: 'boost.png',
+                visualScale: 1,
+                metadata: { delay: 40 },
+                color: () => 'rgba(255, 231, 18, 0.75)',
+                text: (obj) => 'delay: ' + (obj.metadata.delay?.toString() ?? '-') + 's'
+            },
+            {
+                id: 'shield',
+                sprite: 'shield.png',
+                visualScale: 1,
+                metadata: { delay: 40 },
+                color: () => 'rgba(18, 137, 255, 0.75)',
+                text: (obj) => 'delay: ' + (obj.metadata.delay?.toString() ?? '-') + 's'
+            },
+            {
+                id: 'gear',
+                sprite: 'gear.png',
+                visualScale: 1,
+                metadata: { delay: 40 },
+                color: () => 'rgba(255, 255, 255, 0.7)',
+                text: (obj) => 'delay: ' + (obj.metadata.delay?.toString() ?? '-') + 's'
+            },
+            {
+                id: 'flag',
+                sprite: 'flag.png',
+                visualScale: 1,
+                metadata: { team: TEAM_KEYS[0] },
+                color: (obj) => TEAMS[obj.metadata.team]?.color ?? '#fff'
+            },
+        ];
+
+        placeableObjects.forEach(po => {
+            if (typeof po.sprite === 'string') {
+                const img = new Image();
+                img.src = po.sprite;
+                po.img = img;
+            } else if (po.sprite instanceof Image) {
+                po.img = po.sprite;
+            }
+        });
+
+        let placedObjects = [];
+        let selectedObjectIndex = null;
+        let currentPlaceableIndex = 0;
+
+        function createObjectTypeButtons() {
+            const tilesContainer = document.getElementById('tiles');
+            const div = document.createElement('div');
+            div.id = 'objectTypes';
+            div.style.display = 'flex';
+            div.style.gap = '6px';
+            div.style.marginTop = '6px';
+
+            placeableObjects.forEach((po, i) => {
+                const btn = document.createElement('canvas');
+                const size = TILE_SIZE * 2;
+                btn.width = size;
+                btn.height = size;
+                btn.classList.add('obj-btn');
+
+                const bctx = btn.getContext('2d');
+                bctx.imageSmoothingEnabled = true;
+
+                const drawPreview = () => {
+                    bctx.clearRect(0, 0, size, size);
+                    if (po.img && po.img.complete) {
+                        const size = Math.min(po.img.width, po.img.height);
+                        bctx.drawImage(
+                            po.img,
+                            0, 0, size, size,
+                            0, 0, size, size
+                        );
+                    } else {
+                        bctx.fillStyle = '#444';
+                        bctx.fillRect(0, 0, size, size);
+                        bctx.fillStyle = '#fff';
+                        bctx.font = '8px sans-serif';
+                        bctx.fillText(po.id[0] || '?', 2, 10);
+                    }
+                };
+
+                btn.onclick = () => {
+                    currentPlaceableIndex = i;
+                    updateObjectTypeSelection();
+                    if (mode !== 'place') {
+                        setMode('place');
+                    }
+                };
+
+                btn.addEventListener('load', drawPreview);
+                div.appendChild(btn);
+                drawPreview();
+            });
+
+            tilesContainer.appendChild(div);
+            updateObjectTypeSelection();
+        }
+
+        function updateObjectTypeSelection() {
+            const nodes = document.querySelectorAll('#objectTypes .obj-btn');
+            nodes.forEach((n, i) => n.classList.toggle('active', i === currentPlaceableIndex));
+        }
+
+        tileset.onload = () => {
+            createTileButtons();
+            createObjectTypeButtons();
+            draw();
+        };
+
+        function createTileButtons() {
+            const container = document.getElementById('tiles');
+            for (let i = 0; i < 8; i++) {
+                const btn = document.createElement('canvas');
+                btn.width = 16;
+                btn.height = 16;
+                btn.classList.add('tile-btn');
+
+                const bctx = btn.getContext('2d');
+                bctx.imageSmoothingEnabled = false;
+
+                bctx.drawImage(
+                    tileset,
+                    i * TILE_SIZE, 0,
+                    DRAW_SIZE, DRAW_SIZE,
+                    0, 0,
+                    DRAW_SIZE, DRAW_SIZE
+                );
+
+                btn.onclick = () => {
+                    currentTile = i;
+                    updateTileSelection();
+                    if (mode === 'place') {
+                        setMode('draw');
+                    }
+                };
+
+                container.appendChild(btn);
+            }
+
+            updateTileSelection();
+        }
+
+        function updateTileSelection() {
+            document.querySelectorAll('.tile-btn')
+                .forEach((b, i) =>
+                    b.classList.toggle('active', i === currentTile)
+                );
+        }
+
+        const drawBtn = document.getElementById('drawBtn');
+        const rectBtn = document.getElementById('rectBtn');
+        const placeBtn = document.getElementById('placeBtn');
+
+        drawBtn.onclick = () => setMode('draw');
+        rectBtn.onclick = () => setMode('rect');
+        placeBtn.onclick = () => setMode('place');
+
+        function setMode(m) {
+            mode = m;
+            drawBtn.classList.toggle('active', m === 'draw');
+            rectBtn.classList.toggle('active', m === 'rect');
+            placeBtn.classList.toggle('active', m === 'place');
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (let y = 0; y < MAP_H; y++) {
+                for (let x = 0; x < MAP_W; x++) {
+                    const id = map[y][x];
+
+                    ctx.drawImage(
+                        tileset,
+                        id * TILE_SIZE, 0,
+                        TILE_SIZE, TILE_SIZE,
+                        x * DRAW_SIZE, y * DRAW_SIZE,
+                        DRAW_SIZE, DRAW_SIZE
+                    );
+
+                    ctx.strokeStyle = '#222';
+                    ctx.strokeRect(x * DRAW_SIZE, y * DRAW_SIZE, DRAW_SIZE, DRAW_SIZE);
+                }
+            }
+
+            if (mode === 'rect' && mouseDown && startX !== null) {
+                const minX = Math.min(startX, previewX);
+                const maxX = Math.max(startX, previewX);
+                const minY = Math.min(startY, previewY);
+                const maxY = Math.max(startY, previewY);
+
+                ctx.fillStyle = 'rgba(76,175,80,0.3)';
+                ctx.fillRect(
+                    minX * DRAW_SIZE,
+                    minY * DRAW_SIZE,
+                    (maxX - minX + 1) * DRAW_SIZE,
+                    (maxY - minY + 1) * DRAW_SIZE
+                );
+            }
+
+            if (hoverX !== null && hoverY !== null) {
+                const px = (hoverX + (mode === 'place' ? 0 : 0.5)) * DRAW_SIZE;
+                const py = (hoverY + (mode === 'place' ? 0 : 0.5)) * DRAW_SIZE;
+
+                ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+                ctx.lineWidth = 1;
+
+                ctx.beginPath();
+
+                ctx.moveTo(px, 0);
+                ctx.lineTo(px, canvas.height);
+                ctx.moveTo(0, py);
+                ctx.lineTo(canvas.width, py);
+
+                ctx.stroke();
+
+                coordsText.textContent = `Cursor coords: (${hoverX}, ${MAP_H - hoverY})`;
+            } else {
+                coordsText.textContent = "Cursor coords: ()";
+            }
+
+            drawObjects();
+        }
+
+        function drawObjects() {
+            objectCtx.clearRect(0, 0, objectCanvas.width, objectCanvas.height);
+
+            placedObjects.forEach((obj, idx) => {
+                const po = placeableObjects.find(p => p.id === obj.id);
+
+                const baseX = obj.x * DRAW_SIZE;
+                const baseY = objectCanvas.height - (obj.y) * DRAW_SIZE;
+
+                const img = po && po.img && po.img.complete ? po.img : null;
+
+                const imgW = img?.width ?? TILE_SIZE;
+                const imgH = img?.height ?? TILE_SIZE;
+
+                const scale = obj.visualScale * SCALE || 1 * SCALE;
+
+                objectCtx.save();
+
+                objectCtx.translate(
+                    baseX,
+                    baseY
+                );
+
+                objectCtx.rotate((-obj.rotation || 0) * Math.PI / 180);
+
+                objectCtx.scale(scale, scale);
+
+                if (img) {
+                    if (po.color) {
+                        const color = po.color(obj);
+
+                        const tempCanvas = document.createElement('canvas');
+                        tempCanvas.width = imgW;
+                        tempCanvas.height = imgH;
+                        const tempCtx = tempCanvas.getContext('2d');
+
+                        tempCtx.drawImage(img, 0, 0);
+
+                        tempCtx.globalCompositeOperation = 'source-atop';
+                        tempCtx.fillStyle = color;
+                        tempCtx.fillRect(0, 0, imgW, imgH);
+
+                        tempCtx.globalCompositeOperation = 'multiply';
+                        tempCtx.drawImage(img, 0, 0);
+
+                        tempCtx.globalCompositeOperation = 'source-over';
+
+                        objectCtx.drawImage(
+                            tempCanvas,
+                            -imgW / 2,
+                            -imgH / 2
+                        );
+                    } else {
+                        objectCtx.drawImage(
+                            img,
+                            -imgW / 2,
+                            -imgH / 2
+                        );
+                    }
+                } else {
+                    objectCtx.fillStyle = '#888';
+                    objectCtx.fillRect(
+                        -imgW / 2,
+                        -imgH / 2,
+                        imgW,
+                        imgH
+                    );
+                }
+
+                objectCtx.restore();
+
+                if (po && po.text) {
+                    const text = po.text(obj);
+
+                    if (text) {
+                        objectCtx.save();
+
+                        objectCtx.font = '12px monospace';
+                        objectCtx.textAlign = 'center';
+                        objectCtx.textBaseline = 'bottom';
+
+                        const textX = baseX;
+                        const textY = baseY + imgH;
+
+                        objectCtx.lineWidth = 3;
+                        objectCtx.strokeStyle = 'black';
+                        objectCtx.strokeText(text, textX, textY);
+
+                        objectCtx.fillStyle = '#fff';
+                        objectCtx.fillText(text, textX, textY);
+
+                        objectCtx.restore();
+                    }
+                }
+
+                if (selectedObjectIndex === idx) {
+                    const drawW = imgW * scale;
+                    const drawH = imgH * scale;
+
+                    objectCtx.save();
+
+                    objectCtx.translate(
+                        baseX,
+                        baseY
+                    );
+                    objectCtx.rotate((-obj.rotation || 0) * Math.PI / 180);
+
+                    objectCtx.strokeStyle = 'rgba(76,175,80,1)';
+                    objectCtx.lineWidth = 2;
+
+                    objectCtx.strokeRect(
+                        -drawW / 2,
+                        -drawH / 2,
+                        drawW,
+                        drawH
+                    );
+
+                    objectCtx.restore();
+                }
+            });
+        }
+
+        function formatCoord(v) {
+            return (Math.abs(v - Math.round(v)) < 1e-9) ? String(Math.round(v)) : String(parseFloat(v.toFixed(1)));
+        }
+
+        function getMousePos(e) {
+            const rect = canvas.getBoundingClientRect();
+
+            const scaleX = canvas.width / rect.width;
+            const scaleY = canvas.height / rect.height;
+
+            const px = (e.clientX - rect.left) * scaleX;
+            const py = (e.clientY - rect.top) * scaleY;
+
+            const fx = px / DRAW_SIZE;
+            const fy = py / DRAW_SIZE;
+
+            let tileX, tileY;
+            if (mode === 'place') {
+                tileX = Math.round(fx * 2) / 2;
+                tileY = Math.round(fy * 2) / 2;
+            } else {
+                tileX = Math.floor(fx);
+                tileY = Math.floor(fy);
+            }
+
+            tileX = Math.max(0, Math.min(MAP_W, tileX));
+            tileY = Math.max(0, Math.min(MAP_H, tileY));
+
+            return { x: tileX, y: tileY, fx, fy, px, py };
+        }
+
+        function findObjectAtPixel(px, py) {
+            for (let i = placedObjects.length - 1; i >= 0; i--) {
+                const o = placedObjects[i];
+                const po = placeableObjects.find(p => p.id === o.id);
+
+                const img = po && po.img && po.img.complete ? po.img : null;
+
+                const imgW = img ? img.width : TILE_SIZE;
+                const imgH = img ? img.height : TILE_SIZE;
+
+                const scale = (o.visualScale || 1) * SCALE;
+
+                const objCenterX = o.x * DRAW_SIZE;
+                const objCenterY = objectCanvas.height - (o.y * DRAW_SIZE);
+
+                const halfW = (imgW * scale) / 2;
+                const halfH = (imgH * scale) / 2;
+
+                if (
+                    px >= objCenterX - halfW &&
+                    px <= objCenterX + halfW &&
+                    py >= objCenterY - halfH &&
+                    py <= objCenterY + halfH
+                ) {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
+        function checkObjectClick(pos) {
+            const foundIdx = findObjectAtPixel(pos.px, pos.py);
+            if (foundIdx !== -1) {
+                selectedObjectIndex = foundIdx;
+                showObjectProperties(placedObjects[selectedObjectIndex]);
+                draw();
+                return true;
+            }
+            return false;
+        }
+
+        canvas.onmousedown = e => {
+            const pos = getMousePos(e);
+            if (e.button !== 0) {
+                if (e.button === 2) {
+                    checkObjectClick(pos);
+                }
+                return;
+            }
+            mouseDown = true;
+
+            if (checkObjectClick(pos)) {
+                return;
+            }
+
+            if (mode === 'draw') {
+                map[pos.y][pos.x] = currentTile;
+                draw();
+            } else if (mode === 'place') {
+                const po = placeableObjects[currentPlaceableIndex];
+                const oldSettings = lastPlacedObjectSettings[po.id];
+                const newObj = {
+                    id: po.id,
+                    x: pos.x,
+                    y: MAP_H - pos.y,
+                    rotation: oldSettings?.rotation ?? 0,
+                    visualScale: po.visualScale || 1,
+                    metadata: JSON.parse(JSON.stringify(oldSettings?.metadata || po.metadata || {}))
+                };
+                if (po.init) {
+                    po.init(newObj);
+                }
+                placedObjects.push(newObj);
+                selectedObjectIndex = placedObjects.length - 1;
+                showObjectProperties(newObj);
+                draw();
+            } else {
+                startX = pos.x;
+                startY = pos.y;
+            }
+        };
+
+        canvas.onmousemove = e => {
+            const pos = getMousePos(e);
+
+            hoverX = pos.x;
+            hoverY = pos.y;
+
+            if (!mouseDown) {
+                draw();
+                return;
+            }
+
+            if (mode === 'draw') {
+                map[Math.floor(pos.y)][Math.floor(pos.x)] = currentTile;
+            } else if (mode === 'place') {
+            } else {
+                previewX = pos.x;
+                previewY = pos.y;
+            }
+
+            draw();
+        };
+
+        canvas.onmouseleave = () => {
+            hoverX = null;
+            hoverY = null;
+            draw();
+        };
+
+        function canvasOnMouseUp(e) {
+            if (e.button !== 0) return;
+            mouseDown = false;
+
+            if (mode !== 'rect') return;
+
+            const pos = getMousePos(e);
+
+            const x = pos.x;
+            const y = pos.y;
+
+            const minX = Math.min(startX, x);
+            const maxX = Math.max(startX, x);
+            const minY = Math.min(startY, y);
+            const maxY = Math.max(startY, y);
+
+            for (let yy = Math.floor(minY); yy <= Math.floor(maxY); yy++) {
+                for (let xx = Math.floor(minX); xx <= Math.floor(maxX); xx++) {
+                    map[yy][xx] = currentTile;
+                }
+            }
+
+            startX = null;
+            draw();
+        }
+
+        document.addEventListener('mouseup', e => {
+            if (mouseDown) {
+                canvasOnMouseUp(e);
+            }
+        });
+
+        function findObjectAt(tileX, tileY) {
+            const px = tileX * DRAW_SIZE;
+            const py = tileY * DRAW_SIZE;
+
+            for (let i = placedObjects.length - 1; i >= 0; i--) {
+                const o = placedObjects[i];
+                const po = placeableObjects.find(p => p.id === o.id);
+
+                const img = po && po.img && po.img.complete ? po.img : null;
+
+                const imgW = img ? img.width : TILE_SIZE;
+                const imgH = img ? img.height : TILE_SIZE;
+
+                const scale = (o.visualScale || 1) * SCALE;
+
+                const objCenterX = o.x * DRAW_SIZE;
+                const objCenterY = o.y * DRAW_SIZE;
+
+                const halfW = (imgW * scale) / 2;
+                const halfH = (imgH * scale) / 2;
+
+                if (
+                    px >= objCenterX - halfW &&
+                    px <= objCenterX + halfW &&
+                    py >= objCenterY - halfH &&
+                    py <= objCenterY + halfH
+                ) {
+                    return i;
+                }
+            }
+
+            return -1;
+        }
+
+        document.getElementById('resizeBtn').onclick = () => {
+            const newW = +document.getElementById('mapW').value;
+            const newH = +document.getElementById('mapH').value;
+
+            const newMap = createMap(newW, newH);
+
+            for (let y = 0; y < Math.min(newH, MAP_H); y++) {
+                for (let x = 0; x < Math.min(newW, MAP_W); x++) {
+                    newMap[y][x] = map[y][x];
+                }
+            }
+
+            MAP_W = newW;
+            MAP_H = newH;
+            map = newMap;
+
+            placedObjects = placedObjects.filter(o => o.x >= 0 && o.x < MAP_W && o.y >= 0 && o.y < MAP_H);
+
+            resizeCanvas();
+            draw();
+        };
+
+        function mapToString() {
+            return map.map(row => row.join('')).join('\n');
+        }
+
+        function stringToMap(str) {
+            const rows = str.trim().split('\n');
+
+            const newMap = rows.map(row =>
+                row.split('').map(c => {
+                    const n = Number(c);
+                    return (n >= 0 && n <= 7) ? n : 0;
+                })
+            );
+
+            return newMap;
+        }
+
+        const arenaIdInput = document.getElementById('arenaId');
+
+        function getMapData() {
+            return {
+                id: arenaIdInput.value.trim(),
+                tilemap: mapToString(),
+                itemSpawners: placedObjects.map(obj => {
+                    let typeInt = ['boost', 'gear', 'shield'].indexOf(obj.id);
+                    return typeInt < 0 ? null : {
+                        type: typeInt,
+                        delay: obj.metadata.delay,
+                        pos: { x: obj.x, y: obj.y }
+                    }
+                }).filter(item => item),
+                flags: placedObjects.map(obj => {
+                    return obj.id !== 'flag' ? null : {
+                        team: obj.metadata.team,
+                        pos: { x: obj.x, y: obj.y }
+                    }
+                }).filter(item => item),
+                playerGroups: Object.values(
+                    placedObjects.reduce((groups, obj) => {
+                        if (obj.id !== 'spawn')
+                            return groups;
+
+                        const respawnDelay = (obj.metadata.respawnDelay ?? 7).toFixed(1);
+                        const key = obj.metadata.team + respawnDelay;
+
+                        groups[key] ??= {
+                            team: obj.metadata.team,
+                            respawnDelay: respawnDelay,
+                            spawnPoints: []
+                        };
+
+                        groups[key].spawnPoints.push({
+                            x: obj.x,
+                            y: obj.y,
+                            z: obj.rotation
+                        });
+
+                        return groups;
+                    }, {})
+                )
+            };
+        }
+
+        document.getElementById('exportBtn').onclick = () => {
+            if (!arenaIdInput.value || arenaIdInput.value.trim() === "") {
+                alert("Arena ID is empty!");
+                return;
+            }
+            const data = getMapData();
+            const jsonString = JSON.stringify(data, null, 2);
+            const blob = new Blob([jsonString], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = data.id + ".json";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        };
+
+        document.getElementById('importBtn').onclick = () => {
+            document.getElementById('importFile').click();
+        };
+
+        function loadMapData(data) {
+            arenaIdInput.value = data.id || "";
+
+            if (data.tilemap) {
+                const newMap = stringToMap(data.tilemap);
+                MAP_W = newMap[0].length;
+                MAP_H = newMap.length;
+                document.getElementById('mapW').value = newMap[0].length;
+                document.getElementById('mapH').value = newMap.length;
+                map = newMap;
+            }
+
+            placedObjects = [];
+
+            (data.itemSpawners || []).forEach(item => {
+                placedObjects.push({
+                    id: ['boost', 'gear', 'shield'][item.type],
+                    x: item.pos.x,
+                    y: item.pos.y,
+                    metadata: {
+                        delay: item.delay
+                    }
+                });
+            });
+
+            (data.flags || []).forEach(flag => {
+                placedObjects.push({
+                    id: 'flag',
+                    x: flag.pos.x,
+                    y: flag.pos.y,
+                    metadata: {
+                        team: flag.team
+                    }
+                });
+            });
+
+            (data.playerGroups || []).forEach(group => {
+                group.spawnPoints.forEach(p => {
+                    placedObjects.push({
+                        id: 'spawn',
+                        x: p.x,
+                        y: p.y,
+                        rotation: p.z,
+                        metadata: {
+                            team: group.team,
+                            respawnDelay: parseFloat(group.respawnDelay)
+                        }
+                    });
+                });
+            });
+
+            resizeCanvas();
+            draw();
+        }
+
+        document.getElementById('importFile').onchange = (event) => {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    loadMapData(data);
+                } catch (err) {
+                    alert("Invalid JSON file!");
+                }
+
+                event.target.value = '';
+            };
+
+            reader.readAsText(file);
+        };
+
+        const propsDiv = document.getElementById('objectProps');
+
+        function clearProps() {
+            propsDiv.innerHTML = '<strong>Object Properties</strong>';
+        }
+
+        function showObjectProperties(obj) {
+            clearProps();
+            if (!obj) return;
+
+            const idx = selectedObjectIndex;
+
+            const makeRow = (label, input) => {
+                const row = document.createElement('div');
+                row.style.marginBottom = '6px';
+                const l = document.createElement('div');
+                l.textContent = label;
+                l.style.fontSize = '12px';
+                row.appendChild(l);
+                row.appendChild(input);
+                return row;
+            };
+
+            const xInput = document.createElement('input');
+            xInput.type = 'number';
+            xInput.value = formatCoord(obj.x);
+            xInput.style.width = '80px';
+            xInput.step = '0.5';
+            xInput.onchange = () => {
+                const v = Number(xInput.value);
+                obj.x = Math.max(0, Math.min(MAP_W - 1, v));
+                draw();
+            };
+            propsDiv.appendChild(makeRow('x', xInput));
+
+            const yInput = document.createElement('input');
+            yInput.type = 'number';
+            yInput.value = formatCoord(obj.y);
+            yInput.style.width = '80px';
+            yInput.step = '0.5';
+            yInput.onchange = () => {
+                const v = Number(yInput.value);
+                obj.y = Math.max(0, Math.min(MAP_H - 1, v));
+                draw();
+            };
+            propsDiv.appendChild(makeRow('y', yInput));
+
+            lastPlacedObjectSettings[obj.id] = { rotation: obj.rotation, metadata: obj.metadata };
+            const objIndex = placeableObjects.indexOf(placeableObjects.find(item => item.id == obj.id));
+            currentPlaceableIndex = objIndex;
+            updateObjectTypeSelection();
+
+            const po = placeableObjects.find(p => p.id === obj.id) || { metadata: {} };
+
+            if (po.rotatable) {
+                const rInput = document.createElement('input');
+                rInput.type = 'number';
+                rInput.value = obj.rotation || 0;
+                rInput.style.width = '80px';
+                rInput.step = '45';
+                rInput.onchange = () => {
+                    obj.rotation = Number(rInput.value) || 0;
+                    lastPlacedObjectSettings[obj.id] ??= { rotation: obj.rotation, metadata: po.metadata };
+                    lastPlacedObjectSettings[obj.id].rotation = obj.rotation || 0;
+                    draw();
+                };
+                propsDiv.appendChild(makeRow('rotation', rInput));
+            }
+
+            const metaKeys = Object.keys(po.metadata || obj.metadata || {});
+
+            metaKeys.forEach(k => {
+                const v = (obj.metadata && obj.metadata[k] !== undefined) ? obj.metadata[k] : po.metadata[k];
+                let input;
+
+                if (k === "team") {
+                    input = document.createElement('select');
+                    input.style.width = '120px';
+
+                    TEAM_KEYS.forEach(team => {
+                        const option = document.createElement('option');
+                        option.value = team;
+                        option.textContent = team;
+                        if (team === v) option.selected = true;
+                        input.appendChild(option);
+                    });
+
+                    input.onchange = () => {
+                        if (!obj.metadata) obj.metadata = {};
+                        obj.metadata[k] = input.value;
+                        lastPlacedObjectSettings[obj.id] = { rotation: obj.rotation, metadata: obj.metadata };
+                        draw();
+                    };
+                } else {
+                    input = document.createElement('input');
+                    input.style.width = '120px';
+                    input.type = (typeof v === 'number') ? 'number' : 'text';
+                    input.value = v;
+
+                    input.onchange = () => {
+                        if (!obj.metadata) obj.metadata = {};
+                        obj.metadata[k] = input.type === 'number' ? Number(input.value) : input.value;
+                        lastPlacedObjectSettings[obj.id] = { rotation: obj.rotation, metadata: obj.metadata };
+                        draw();
+                    };
+                }
+
+                propsDiv.appendChild(makeRow(k, input));
+            });
+
+            const del = document.createElement('button');
+            del.textContent = 'Delete';
+            del.onclick = () => {
+                if (idx != null) {
+                    placedObjects.splice(idx, 1);
+                    selectedObjectIndex = null;
+                    clearProps();
+                    draw();
+                }
+            };
+            propsDiv.appendChild(del);
+        }
+
+        function refreshZoom() {
+            zoomText.textContent = 'zoom: ' + zoomSlider.value;
+            SCALE = zoomSlider.value;
+            DRAW_SIZE = TILE_SIZE * SCALE;
+            resizeCanvas();
+            draw();
+        }
+
+        const zoomSlider = document.getElementById('zoomSlider');
+        const zoomText = document.getElementById('zoomText');
+        zoomSlider.onchange = e => {
+            refreshZoom();
+        };
+        refreshZoom();
+
+        clearProps();
+
+        window.addEventListener('keydown', e => {
+            if (e.key === 'Delete' && selectedObjectIndex != null) {
+                placedObjects.splice(selectedObjectIndex, 1);
+                selectedObjectIndex = null;
+                clearProps();
+                draw();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

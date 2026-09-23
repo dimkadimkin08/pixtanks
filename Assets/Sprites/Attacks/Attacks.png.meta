@@ -1,0 +1,3295 @@
+fileFormatVersion: 2
+guid: f3ac374a844edfc4c8d8b539318102fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6095532798768231063
+    second: Attacks_0
+  - first:
+      213: -4666927688053034149
+    second: Attacks_1
+  - first:
+      213: 8460758886575586376
+    second: Attacks_2
+  - first:
+      213: 9197359061118923714
+    second: Attacks_3
+  - first:
+      213: -2170152249056553037
+    second: Attacks_4
+  - first:
+      213: -2680212052074382635
+    second: Attacks_5
+  - first:
+      213: -6931215245725216204
+    second: Attacks_6
+  - first:
+      213: -1368667520356147063
+    second: Attacks_7
+  - first:
+      213: -2487155654839665781
+    second: Attacks_8
+  - first:
+      213: 2493715834204586930
+    second: Attacks_9
+  - first:
+      213: 8119254292627410222
+    second: Attacks_10
+  - first:
+      213: 5789462244408325593
+    second: Attacks_11
+  - first:
+      213: -1444235429493094942
+    second: Attacks_12
+  - first:
+      213: 8459689340476424515
+    second: Attacks_13
+  - first:
+      213: -4478346526924141157
+    second: Attacks_14
+  - first:
+      213: -7227804449155581258
+    second: Attacks_15
+  - first:
+      213: -3604998909101181594
+    second: Attacks_16
+  - first:
+      213: 5475620736573795811
+    second: Attacks_17
+  - first:
+      213: -5996965363428705851
+    second: Attacks_18
+  - first:
+      213: -1482853811982139335
+    second: Attacks_19
+  - first:
+      213: 4983539406325546534
+    second: Attacks_20
+  - first:
+      213: 3274490417574866107
+    second: Attacks_21
+  - first:
+      213: -2338093585503527961
+    second: Attacks_22
+  - first:
+      213: -5105986514940756889
+    second: Attacks_23
+  - first:
+      213: -3467671829867962210
+    second: Attacks_24
+  - first:
+      213: 4002567970804704800
+    second: Attacks_25
+  - first:
+      213: 2947635463329656151
+    second: Attacks_26
+  - first:
+      213: 5549899127975328557
+    second: Attacks_27
+  - first:
+      213: -932622242980869955
+    second: Attacks_28
+  - first:
+      213: 155688117603481487
+    second: Attacks_29
+  - first:
+      213: -6147224216618748901
+    second: Attacks_30
+  - first:
+      213: -8468725862782532587
+    second: Attacks_31
+  - first:
+      213: 5763972461668555907
+    second: Attacks_32
+  - first:
+      213: -6800640647957950719
+    second: Attacks_33
+  - first:
+      213: -3339831892636666826
+    second: Attacks_34
+  - first:
+      213: -495309659491683638
+    second: Attacks_35
+  - first:
+      213: 1121785225806755958
+    second: Attacks_36
+  - first:
+      213: 3563661117451713387
+    second: Attacks_37
+  - first:
+      213: -6596482981981619478
+    second: Attacks_38
+  - first:
+      213: 897458074936004019
+    second: Attacks_39
+  - first:
+      213: 5189140883734023385
+    second: Attacks_40
+  - first:
+      213: 3379576716334989340
+    second: Attacks_41
+  - first:
+      213: -33728520968892998
+    second: Attacks_42
+  - first:
+      213: -4127189477155844236
+    second: Attacks_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CommonBullet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfe55b5be8f4aa4fb02ab7f389e1a40
+      internalID: -2130409067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f0ba4eabce7d94b9508cc8c104ee99
+      internalID: 1692524811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7290a2d86971e40b1be79e716c2c24
+      internalID: -877912160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cabf6b6670b915499e77755ed77baea
+      internalID: -58672603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6edc3cd4bf14e48a721dd81900d14d
+      internalID: 912545149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e90f66587baa8540a7246ecb9373d2d
+      internalID: -370426115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bb99ffd028d1348a1a1bc009ea8c55
+      internalID: 1894953625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f0222f491a03f4f9d34b69e10379bb
+      internalID: -945360319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4ec828fc5e414fab02865e63e36f2
+      internalID: -784395919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f219859ac3c2fb9478899f4e1818e240
+      internalID: 502194629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6ddd60311c9944f9b226acb37e45cc
+      internalID: -563857974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonBullet2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b86be99a980c68418c2d9b4761409c9
+      internalID: -2035485647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7191b6077ef2d44b8bb3ddf0c02d36
+      internalID: 1782936769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7fdcece9581fd4f9192164dce3d780
+      internalID: -1378101178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17a15e1610da1d4d98f180e05921c70
+      internalID: -374513869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab986b897b4138488cf1fe6414e5d10
+      internalID: 1412009595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet1_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db762d23f661fe44e9cf7e6160172d21
+      internalID: 123522534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet1_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c86fe57de4696142bc9cd620bb665f7
+      internalID: 169160251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1da5cbd9ddaaf4d9864ef98046588c
+      internalID: -399141726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet2_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5541d4c6fda8341b34a298105af58a
+      internalID: -1740717780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightBullet2_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2edc76c1cb94f47b44505fae528c8c
+      internalID: -1538990798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05933b05fa642924db23c16648e7bde7
+      internalID: 1957906354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf62e242efda6f49a57569f66ae70aa
+      internalID: 956422613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49077c7dd6206142bd9492000685c28
+      internalID: -1839049500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5ec7853910ede4f8ea49ef53fd9e06
+      internalID: 743832625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37613531be64f9443964fddae2fbc1b0
+      internalID: 289748029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast1_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768b9ff09dcf23849b6ff64465dee2c9
+      internalID: -1786996047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast1_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8763d93b8fc5eb04bbef840aa13306ee
+      internalID: 2052932485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast1_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 126
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d053d8edc1547564c9c0aac4d8d746f4
+      internalID: 1238675396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7001a2eb79d8d045b50ce24e5a9cfd7
+      internalID: -1997602403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast2_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 106
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb52aba0cc994e4ba3b054cc62a0b15
+      internalID: -1440346986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast2_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 106
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cd48280ff51e14abfe18f841dccf68
+      internalID: 1337622270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunBlast2_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 106
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908d7e91f5e73e840a6f2e7bed3ac757
+      internalID: -1036726076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928d95ce7f49be243aadb6dc05bd340b
+      internalID: -122690219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b210d484d9ef4daedff7bbc07eafb
+      internalID: 1781580205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55adbd0f046aa742af7257b946c8d21
+      internalID: -1194228766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307dc5e449243c64b9d67f0161585e09
+      internalID: -832778486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e95c078d51dc6f419ef54470eed0259
+      internalID: -1892934654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944cc55b8a27e75458ef3ab97409b279
+      internalID: -1799031157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789cf55e0d161af438af0474b7d90fb5
+      internalID: -1947449369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e130face6d994924e951147abcabfc44
+      internalID: 1289486333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a388dff2e9db4f99d91b9915a9991
+      internalID: -5487397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5e12fa9cd515b4ba9ece543f746759
+      internalID: 1244100472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319e78d3f6938984cb044b7e4bb43533
+      internalID: -779732224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell1_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 216
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14bf4b07946ea340bf9d0f950b49118
+      internalID: -1334868431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e68066d9b2ab24485fbc32c9988d7f
+      internalID: -193231942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723284475d004b844a2d96d6cdb8bb47
+      internalID: -1338256106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72addc8173ae3d498435e9ffcae5d1e
+      internalID: -1765603396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a732badd4420844b3155a8f3a0bb01
+      internalID: -1255908044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8bccee3b209c44a9d9338d16dae3d1
+      internalID: 396996283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyShell2_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 196
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4c8408dac52d4e86ab1d547581f6e
+      internalID: -19296138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 174
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4140b2c4ffeeb4bbf2efeb1b49d90a
+      internalID: -1682519705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 174
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d3c4ea40597134795bb1afdaa0ed6a
+      internalID: 1960092953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 174
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3703eb8f26b9008428b4cf60b3014166
+      internalID: 443904428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 174
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525f948b8e831d43972132731ad65fb
+      internalID: -2120823499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 174
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7863507f352d3834697b1c8393f3e0ae
+      internalID: 722857183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast1_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 154
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d8c00be36ae844793c0408b39c9a12
+      internalID: -1942053262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast1_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 154
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88a4e64d41e5b04d94b2b5b9e229966
+      internalID: -995164218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast1_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 154
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ffb342c0015364ca161252d4786e93
+      internalID: -940210188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast1_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 154
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5c627fee3657a4db72f40c54ead81f
+      internalID: -440933768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast1_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 154
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8256ba02e1424b741b340d666bf00c39
+      internalID: -444741931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast2_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee836b2735b0827409b4c410be9381bf
+      internalID: -66769098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast2_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336e5df4560b7e44384283555d84a395
+      internalID: -368360736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast2_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd925303c168d78429f6333a569d12c5
+      internalID: -1473203150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast2_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c78040e66b743c498d34829af34c323
+      internalID: -2072515820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlameBlast2_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 134
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cad6ac00ab1a244f949658ad3aaca4e
+      internalID: 214895369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserHitscan_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 70
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcdc3b09d7be854384da911b566cd25
+      internalID: -780096321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LaserHitscan_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b9dd9fb125e44468549676440d569c
+      internalID: 623773502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c208a6dde15b24a9868911fd1beca9
+      internalID: -1898161174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744ae364100b292468785fb2f531e22f
+      internalID: 549169819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 192
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466da626b345e3e4dbf3c5115d4ffaf5
+      internalID: -1658449133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet1_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7d63ed059cb654b91422593325a845
+      internalID: -69592110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet1_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5e6ac90ff31d49ba0e70402dae756
+      internalID: 719475923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet1_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 181
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6d7d40767cb2e4ca91855d4716fb42
+      internalID: 358944268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet2_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce4e95482c473348a3496fbdda96850
+      internalID: 717004033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet2_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b93a4f765f787f4a98653060f5c6067
+      internalID: -1902253631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleBullet2_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 170
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f423e0a6d5e01b14f92b85af6d0e454d
+      internalID: -1665959853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashBlast_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 95
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc9dd1885bf24a4c84abab89a19a8a5
+      internalID: 1649299929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashBlast_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 95
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f82e48fad22533478dad280159f79da
+      internalID: 658561333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashBlast_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 95
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf14a6dfea023649801ce0db487612b
+      internalID: 400965163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9643b29bbd3c9f40bda18b84b6df1c4
+      internalID: -702249492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 47
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934b8362bd98e5d4483cf5bb099eddf8
+      internalID: 1324618026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 47
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4604c45561d6b341943e08a67f4a31c
+      internalID: -1233069036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bfd2a83ad958d428e68e4544007b06
+      internalID: -1449144421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8730c27eadbaef4c8a5a1be1689355c
+      internalID: -748247414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet1_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 37
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef6c7ba8bf6b0346bea0991c96ae194
+      internalID: 1264439883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet1_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 37
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26006a8e253ee2f4d9c53a63358a6cbc
+      internalID: -1463489342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet1_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f06bd229f6cce4c8dddec90693f809
+      internalID: -2001551693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8289bce8b8de54f971d0ddef160c7f
+      internalID: -1202563107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet2_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74216b84088df41aba040e7d9ee919
+      internalID: 1494489674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet2_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 27
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df912d43609b0eb4cba966d079789b5c
+      internalID: -1994523596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shotgun_Pellet2_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789ad1800eabcbd49868134664e33648
+      internalID: 653474744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3656002acee78c44596cc3bef9de1c42
+      internalID: -1108050515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam1_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 35
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d63e80c43f3bff439d75868dcf1cf1b
+      internalID: -787496855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam2_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 25
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42728649a5a748142adefa49cf0956be
+      internalID: 289909368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam2_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92aec2f43d7006458329136270123fc
+      internalID: -576697551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam1_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 35
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ed3d3c483161147b35f4cb47da1ca0
+      internalID: 817966627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_Beam_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6038bf39ef1ba844ebc90ff97cecef08
+      internalID: 911428401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880607188120a7341bc8489eb76aaed2
+      internalID: -253806986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6015609e112a4814087d05576bbe733b
+      internalID: 1537801345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77671132d7ff914e8a09e3f7c79ff87
+      internalID: -1384198656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4f4e9b213a1fe4399c599ac2459d27
+      internalID: 2135869999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit1_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 230
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46974285c21aae40a0d96325cc8995a
+      internalID: -1834695169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit1_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 230
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c78ff1e66acc44e92d5da7f2cd2257
+      internalID: -166825428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit1_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 230
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a47513e5244e8498e2e815fb4aa2e6
+      internalID: 502709531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit1_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 230
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39448e4240b1e6438d8a1eba9ac5096
+      internalID: 639966454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit2_0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 217
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434c2042e1f56d6409bf7b8f3f27df48
+      internalID: 2101993609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit2_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 217
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3af14a38480624c9aaae28dfcd2167
+      internalID: -980291874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit2_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 217
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5bbd2c7f5245345bb2c7fb067458ae
+      internalID: -852446291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillHit2_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 217
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa59e36f00af50240af12f7da1200891
+      internalID: -2028907832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 236
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c612aec14310255448f82151babe2cce
+      internalID: -104387433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 236
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f476a56c6fa341bdf09ef3d4fde53
+      internalID: -1064191067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 236
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db32ba110c268c41af7590abaeab793
+      internalID: -156653045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry1_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 216
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11868252ea8be14587bbafd19aea033
+      internalID: 865792992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry1_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 216
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79fd885162a98640bf5c0aa9cce996d
+      internalID: 1458242779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry1_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 216
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac79d1d719c71d4f99452e31e40a466
+      internalID: 542640823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry2_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 194
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b564db66910bc40b049a0d5576e08e
+      internalID: -1900567164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry2_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 194
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a743a605043c89445b0ad915b1ac5d14
+      internalID: 1315654888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillParry2_2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 194
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6daa3ce974f8624a9413a9662df6bc2
+      internalID: 1620217145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8f1817666134642bd508f94c13f793
+      internalID: -1442198747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec987c89744f8d84a869c521175cdfb3
+      internalID: 486896890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 179
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2d0cb8680161f4082d12a1769ff4e7
+      internalID: -234373786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet1_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 163
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31422a71d7ab14f9c957324da17dba
+      internalID: -293101617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet1_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 163
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650cb1e1f04e6394d807c041e5635b03
+      internalID: 546151566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet1_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 163
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb0f837eb18ecf49a01e3ee6ce6c9c4
+      internalID: -1625719756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet2_0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947eeda95aea13542a95706c84b76851
+      internalID: 1463741442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet2_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13e14966070516458fee3cb58181b36
+      internalID: 1492048318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeBullet2_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 147
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf054d83f0f8d7543a1c70e759cb3992
+      internalID: -1168046751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarShell
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb14695a76e4acf41b62a6cbd5692999
+      internalID: 226760337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarShell1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 172
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6182828d02893aa4caea4af3a64302e5
+      internalID: -80871832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarShell2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cb3ce348ee456428b95c6180a5e832
+      internalID: 2037411851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 072178a9db559ba4597d726d5214fece
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Attacks_15: 294003104
+      Attacks_16: -1628327239
+      Attacks_17: -1355483377
+      Attacks_18: -365951866
+      Attacks_19: -1504929795
+      Attacks_22: 944961690
+      Attacks_23: -1725883299
+      CommonBullet1_0: 912545149
+      CommonBullet1_1: -370426115
+      CommonBullet1_2: 1894953625
+      CommonBullet1_3: -945360319
+      CommonBullet2_0: -784395919
+      CommonBullet2_1: 502194629
+      CommonBullet2_2: -563857974
+      CommonBullet2_3: -2035485647
+      CommonBullet_0: 6095532798768231063
+      CommonBullet_1: 1692524811
+      CommonBullet_2: -877912160
+      CommonBullet_3: -58672603
+      DrillHit1_0: -1834695169
+      DrillHit1_1: -166825428
+      DrillHit1_2: 502709531
+      DrillHit1_3: 639966454
+      DrillHit2_0: 2101993609
+      DrillHit2_1: -980291874
+      DrillHit2_2: -852446291
+      DrillHit2_3: -2028907832
+      DrillHit_0: -253806986
+      DrillHit_1: 1537801345
+      DrillHit_2: -1384198656
+      DrillHit_3: 2135869999
+      DrillParry1_0: 865792992
+      DrillParry1_1: 1458242779
+      DrillParry1_2: 542640823
+      DrillParry2_0: -1900567164
+      DrillParry2_1: 1315654888
+      DrillParry2_2: 1620217145
+      DrillParry_0: -104387433
+      DrillParry_1: -1064191067
+      DrillParry_2: -156653045
+      Drone_Beam1_0: -787496855
+      Drone_Beam1_1: 817966627
+      Drone_Beam2_0: 289909368
+      Drone_Beam2_1: -576697551
+      Drone_Beam_0: -1108050515
+      Drone_Beam_1: 911428401
+      FlameBlast1_0: -1942053262
+      FlameBlast1_1: -995164218
+      FlameBlast1_2: -940210188
+      FlameBlast1_3: -440933768
+      FlameBlast1_4: -444741931
+      FlameBlast2_0: -66769098
+      FlameBlast2_1: -368360736
+      FlameBlast2_2: -1473203150
+      FlameBlast2_3: -2072515820
+      FlameBlast2_4: 214895369
+      FlameBlast_0: -1682519705
+      FlameBlast_1: 1960092953
+      FlameBlast_2: 443904428
+      FlameBlast_3: -2120823499
+      FlameBlast_4: 722857183
+      HeavyShell1_0: -1947449369
+      HeavyShell1_1: 1289486333
+      HeavyShell1_2: -5487397
+      HeavyShell1_3: 1244100472
+      HeavyShell1_4: -779732224
+      HeavyShell1_5: -1334868431
+      HeavyShell2_0: -193231942
+      HeavyShell2_1: -1338256106
+      HeavyShell2_2: -1765603396
+      HeavyShell2_3: -1255908044
+      HeavyShell2_4: 396996283
+      HeavyShell2_5: -19296138
+      HeavyShell_0: -122690219
+      HeavyShell_1: 1781580205
+      HeavyShell_2: -1194228766
+      HeavyShell_3: -832778486
+      HeavyShell_4: -1892934654
+      HeavyShell_5: -1799031157
+      LaserHitscan_0: -780096321
+      LaserHitscan_1: 623773502
+      LightBullet1_0: 1412009595
+      LightBullet1_1: 123522534
+      LightBullet1_2: 169160251
+      LightBullet2_0: -399141726
+      LightBullet2_1: -1740717780
+      LightBullet2_2: -1538990798
+      LightBullet_0: 1782936769
+      LightBullet_1: -1378101178
+      LightBullet_2: -374513869
+      MortarShell: 226760337
+      MortarShell1: -80871832
+      MortarShell2: 2037411851
+      ShotgunBlast1_0: 289748029
+      ShotgunBlast1_1: -1786996047
+      ShotgunBlast1_2: 2052932485
+      ShotgunBlast1_3: 1238675396
+      ShotgunBlast2_0: -1997602403
+      ShotgunBlast2_1: -1440346986
+      ShotgunBlast2_2: 1337622270
+      ShotgunBlast2_3: -1036726076
+      ShotgunBlast_0: 1957906354
+      ShotgunBlast_1: 956422613
+      ShotgunBlast_2: -1839049500
+      ShotgunBlast_3: 743832625
+      Shotgun_Pellet1_0: -748247414
+      Shotgun_Pellet1_1: 1264439883
+      Shotgun_Pellet1_2: -1463489342
+      Shotgun_Pellet1_3: -2001551693
+      Shotgun_Pellet2_0: -1202563107
+      Shotgun_Pellet2_1: 1494489674
+      Shotgun_Pellet2_2: -1994523596
+      Shotgun_Pellet2_3: 653474744
+      Shotgun_Pellet_0: -702249492
+      Shotgun_Pellet_1: 1324618026
+      Shotgun_Pellet_2: -1233069036
+      Shotgun_Pellet_3: -1449144421
+      SlimeBullet1_0: -293101617
+      SlimeBullet1_1: 546151566
+      SlimeBullet1_2: -1625719756
+      SlimeBullet2_0: 1463741442
+      SlimeBullet2_1: 1492048318
+      SlimeBullet2_2: -1168046751
+      SlimeBullet_0: -1442198747
+      SlimeBullet_1: 486896890
+      SlimeBullet_2: -234373786
+      SparkleBullet1_0: -69592110
+      SparkleBullet1_1: 719475923
+      SparkleBullet1_2: 358944268
+      SparkleBullet2_0: 717004033
+      SparkleBullet2_1: -1902253631
+      SparkleBullet2_2: -1665959853
+      SparkleBullet_0: -1898161174
+      SparkleBullet_1: 549169819
+      SparkleBullet_2: -1658449133
+      SplashBlast_0: 1649299929
+      SplashBlast_1: 658561333
+      SplashBlast_2: 400965163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

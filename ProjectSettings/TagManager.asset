@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Map
+  - Tank
+  - Attack
+  - AttackTankTrigger
+  - VisualEffect
+  - WorldSpaceInterface
+  - StatusEffect
+  - Item
+  - 
+  - 
+  - 
+  - Structure
+  - LandingCapule
+  - GameMatchObject
+  - MapFloor
+  - Drone
+  - GreenSpawn
+  - BlueSpawn
+  - AttackUltraBlock
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: MapFloor
+    uniqueID: 2094275219
+    locked: 0
+  - name: Shadow
+    uniqueID: 1517726859
+    locked: 0
+  - name: Map
+    uniqueID: 3917388339
+    locked: 0
+  - name: FragileLocation
+    uniqueID: 2379240029
+    locked: 0
+  - name: MapBush
+    uniqueID: 3549409619
+    locked: 0
+  - name: GroundAttack
+    uniqueID: 3141376517
+    locked: 0
+  - name: Tank
+    uniqueID: 1706347373
+    locked: 0
+  - name: Item
+    uniqueID: 2133460945
+    locked: 0
+  - name: Structure
+    uniqueID: 1816208345
+    locked: 0
+  - name: Drone
+    uniqueID: 651636879
+    locked: 0
+  - name: Attack
+    uniqueID: 767647967
+    locked: 0
+  - name: Effect
+    uniqueID: 2214086955
+    locked: 0
+  - name: LandingCapsule
+    uniqueID: 2268654219
+    locked: 0
+  - name: MatchObject
+    uniqueID: 3301998753
+    locked: 0
+  - name: Interface
+    uniqueID: 2007914707
+    locked: 0
+  m_RenderingLayers:
+  - Default

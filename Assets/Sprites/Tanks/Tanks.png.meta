@@ -1,0 +1,4578 @@
+fileFormatVersion: 2
+guid: 97307f720d81d8a56a68a0d7d5de8174
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2909458258800530498
+    second: Tanks_0
+  - first:
+      213: 114431900800630296
+    second: Tanks_1
+  - first:
+      213: -8637928809046126964
+    second: Tanks_2
+  - first:
+      213: 114041575782168934
+    second: Tanks_3
+  - first:
+      213: -2072038468702977127
+    second: Tanks_4
+  - first:
+      213: -995580392115382208
+    second: Tanks_5
+  - first:
+      213: 5228198911775917173
+    second: Tanks_6
+  - first:
+      213: -8627659152491121480
+    second: Tanks_7
+  - first:
+      213: -3206531110674126801
+    second: Tanks_8
+  - first:
+      213: 769992891098123094
+    second: Tanks_9
+  - first:
+      213: 396732735775326835
+    second: Tanks_10
+  - first:
+      213: -5729083747018591566
+    second: Tanks_11
+  - first:
+      213: -5003441805911773482
+    second: Tanks_12
+  - first:
+      213: -1122094474531169145
+    second: Tanks_13
+  - first:
+      213: 6243581923662751277
+    second: Tanks_14
+  - first:
+      213: 3519529513924866202
+    second: Tanks_15
+  - first:
+      213: -2015901961681485058
+    second: Tanks_16
+  - first:
+      213: -5936394344712596718
+    second: Tanks_17
+  - first:
+      213: 5669823213284423688
+    second: Tanks_18
+  - first:
+      213: -4316592164830538274
+    second: Tanks_19
+  - first:
+      213: -5800861129757255216
+    second: Tanks_20
+  - first:
+      213: 1219458201319533448
+    second: Tanks_21
+  - first:
+      213: 290398441325212779
+    second: Tanks_22
+  - first:
+      213: -4982753438549594078
+    second: Tanks_23
+  - first:
+      213: -633776839387804688
+    second: Tanks_24
+  - first:
+      213: -657506697796951664
+    second: Tanks_25
+  - first:
+      213: -8352752053314470277
+    second: Tanks_26
+  - first:
+      213: 2305633253029399481
+    second: Tanks_27
+  - first:
+      213: 6266405938624046850
+    second: Tanks_28
+  - first:
+      213: 6582300073358416353
+    second: Tanks_29
+  - first:
+      213: 3027888696702014469
+    second: Tanks_30
+  - first:
+      213: 6814114978095795368
+    second: Tanks_31
+  - first:
+      213: 8631879248458252564
+    second: Tanks_32
+  - first:
+      213: -5045570447108562437
+    second: Tanks_33
+  - first:
+      213: 7599170441719255286
+    second: Tanks_34
+  - first:
+      213: 4715797725272463090
+    second: Tanks_35
+  - first:
+      213: 1959663573719376915
+    second: Tanks_36
+  - first:
+      213: 500901680237754824
+    second: Tanks_37
+  - first:
+      213: -8484980919530155616
+    second: Tanks_38
+  - first:
+      213: 6432980974195039212
+    second: Tanks_39
+  - first:
+      213: -2396259144869319965
+    second: Tanks_40
+  - first:
+      213: -4764354555886514125
+    second: Tanks_41
+  - first:
+      213: -6406152191721153680
+    second: Tanks_42
+  - first:
+      213: 1670324920151859331
+    second: Tanks_43
+  - first:
+      213: -4576040213879371425
+    second: Tanks_44
+  - first:
+      213: 80883354522538733
+    second: Tanks_45
+  - first:
+      213: -368191347621300173
+    second: Tanks_46
+  - first:
+      213: 198884207959529738
+    second: Tanks_47
+  - first:
+      213: 375873992943519389
+    second: Tanks_48
+  - first:
+      213: 4951760068935763242
+    second: Tanks_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CommonTank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631927fa685e11c48b264a5c21d000ff
+      internalID: 761927922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42de4572f7cc95f49b6d4f437268f7a3
+      internalID: 54507961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b31ed0fc00ec7044be6ade1f16a2468
+      internalID: -1937147345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c59cdb739f0054489765fd78e9c773
+      internalID: -942687650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d15222f3cc7764cb64a401956bd0fc
+      internalID: -230896736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank1_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d475a9c6565bc3f4980f0132d124b8b2
+      internalID: -1622439028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank1_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd477d76d2546447919ceb214ef48c4
+      internalID: 511750878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81af5105d5da9374ebdacc4699fe993f
+      internalID: 1505908874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4daca892fbf7a46a261da86d7192e5
+      internalID: 753899919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank2_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b007d686bad14db381a189f72d2bc
+      internalID: 1227850772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank2_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708395f2c31c9dd4f9f1190da28a0dd6
+      internalID: 612737150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CommonTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896758fc1f133b84ab0554bcd62d3fec
+      internalID: 1577816238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38675f4995e986e40ae52e20fc2a0413
+      internalID: -1978220095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c5f101f9c3fdb4bac4b37d2ae8af5c
+      internalID: 439166430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dc0b1764d6c3f4880041d758ab8507
+      internalID: -393686814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4de53069c56dfc42ad4120207e9210d
+      internalID: 827163536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 236
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a3e4747e2ffe84aaf53df36bed1360
+      internalID: -1841112417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 236
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5900a787a21dcb48b7c7d2c890d5e7f
+      internalID: 714943992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 236
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f346acef30842e045993e3acefefe5ab
+      internalID: -2109402529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 236
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dcc2820b9eca434089a9701d49dde1a
+      internalID: -1516761669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 236
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c26d6ca5c83fe44b77138dbf2adb9e
+      internalID: 913829822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank1_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e07ed8b3f503349bc401437c59f9d0
+      internalID: 982522274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank1_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edf7f2bea4530741a472fe308a0b86d
+      internalID: 1240401422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank1_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab82566147e46b84db044d1a8ff8b31d
+      internalID: 100240431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank1_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d997ecae96a58e47afbc47e00afb182
+      internalID: 1857869592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 217
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a916298a72316fc4a9dad41c485fd296
+      internalID: -1561055637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank2_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9425903ab85446a448b8a0e2dbcf3b3a
+      internalID: -48327929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank2_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d4de4574cf3ca41ab01f882f9b7857
+      internalID: -371900095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank2_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ff0dc7fd106614cb973cdc83618c21
+      internalID: 488805825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank2_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eca892dd3ad974abe1adfe0e88fc11
+      internalID: -207215667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FlamethrowerTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22039003a5c55e4c854b1b4e19c6b93
+      internalID: -1783442878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank1_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 217
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289516114736234448dc4485f632380f
+      internalID: -361214459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank1_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 217
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a24eda7cb6b3418ee53ac953ba1a4
+      internalID: 1634272685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank1_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 217
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a085e18ca089a1e4d9aeaa3939da58a5
+      internalID: -627550750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 217
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb61820b5706b04d921d9e36002c955
+      internalID: 1718979340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank2_0
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 198
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1c4395e98971341b6b19ee7470302c
+      internalID: 340284242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank2_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 198
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4850f264078ebb4c9472a1f150330e7
+      internalID: -1455744960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank2_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 198
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ab622c3c9f94b41bdfab924dacc38e
+      internalID: 123495130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DroneTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 198
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7529a4515c19fa74c9707ebd12b66e99
+      internalID: 932625251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad79bc4aa5d55be4d8ad39af9039b40f
+      internalID: -1682761368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338612a797ddcd42a3889ce2321acaf
+      internalID: -1736469906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af055cce90db3649a3872673aa0cf6f
+      internalID: 174997472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c470fe32c8679840aafa03796b0d2c2
+      internalID: -17287004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3e8ba43d769f745999dba39e32564f
+      internalID: -1512571923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d455cee4d8c30a4991df25acb7f2b02
+      internalID: 2359364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank1_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb92d983e9ad5d4b988e9fa3dfe5835
+      internalID: 2060305757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank1_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85eb2f0b5b23e59439879edf47dc3b43
+      internalID: -1069476026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank1_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9761cd74b404fa46b41d356febd240b
+      internalID: -996034298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 157
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537351d523765b04fa5530a6f744fabb
+      internalID: -1721084137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 136
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b2032a49692cd4eb5984965b7b3ba2
+      internalID: -196338234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank2_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 136
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be0176cfbeb2324689068ea72642b95
+      internalID: 513466455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank2_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 136
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f6b2c0c4c1b4a42b5d2e4815f0c666
+      internalID: 1104596808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank2_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 136
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88171b1224a724f95a856cefc5473c
+      internalID: 1563174390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DualGunTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 136
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90c148b14b78e4479e3d21064cc5f05
+      internalID: -772059877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c119e52bb8aeef643b985080486fa606
+      internalID: -931507860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407dcd26a673c8a4aae917ceccf0805b
+      internalID: -1230783568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f0c595074502a47abbea3c39c2cfc7
+      internalID: 782717582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf867871bfd978744a7826de93101af6
+      internalID: 866637097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d84e19365d1c7346856c892f81454dd
+      internalID: -1112376590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank1_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8226c8e5b519419f49915af3cd61d
+      internalID: -33151502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank1_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdb2d6b34ede5b4baf2f349b589bbc6
+      internalID: -2125508263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank1_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0ce6c2eb78bc2498d33c1486c1a690
+      internalID: -1599798081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank1_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc58184bc85a344396e1171589bfdf6
+      internalID: -660750880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e188e9c580e600419804d84912510f7
+      internalID: -1045685661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank2_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442d2eb978a344a429bbc3f5f6c29609
+      internalID: -878279314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank2_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 138
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ab0271898920444940d3b7a615db0e
+      internalID: 1501717605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank2_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f1041e2189a6547a6d0ef7f59c3119
+      internalID: -747327254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank2_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 138
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425531bcedab6db45a59d27a0d397f97
+      internalID: 1526647723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RailGunTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 138
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc748507f76c7cd48bfc934afe945f2a
+      internalID: 1463483019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6051219c7c7b199468bc821a169e91d2
+      internalID: -46776394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 114
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2894ea129404d428fdf3067512275b
+      internalID: -321480849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 114
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506cf2b09a7219e41a1412250dfb5c7b
+      internalID: -1639418747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 114
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250c3b4c4aa96d54fad9eed487112a5f
+      internalID: -1198416835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 114
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca36938bbad544998207dd364b1f28
+      internalID: -2044034339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7a373fe2c8e1b4ea726e3a16d4e3e4
+      internalID: -1963923724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank1_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5846179b31536243b11f9cf4d549446
+      internalID: -237819157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank1_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71d7a25e4703e429e75c78a354d959
+      internalID: -2021811217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank1_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473d57e6af937bc45b1b3710ade2a868
+      internalID: -823902771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116ff1b3ea33c5f4b83c71e212c436dc
+      internalID: 2025582221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbbbae460b66c8469151746e75c2c42
+      internalID: 524696922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank2_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b3ae471acf19a40841b9feffb15d85
+      internalID: 570842928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank2_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67ad89c6be75f24393ff68f9b16ecff
+      internalID: -1068643175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank2_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42f55e72d1a5ac4faf9360e989e9bdc
+      internalID: -1630897833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavyTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 72
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3748dc27d60b3f42a41b5a0708fd46c
+      internalID: -1664509659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d15a777d41fade408f2281a28ddaf1e
+      internalID: 555173502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3183094973675d14ab47df1f85ba856b
+      internalID: -251215126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c734f7c0388bf0d499fe22ba96d8e747
+      internalID: 1836277947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 116
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4275b454e1eef49a64ec0fe2a05d4c
+      internalID: 727417981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank1_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 97
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13c84ccdfc7f534fa09d5ac36aa14b0
+      internalID: 1205630121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e162871301bbb94cb39908ea9684f57
+      internalID: -323363016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank1_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 97
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bf77a0fed22d94881ddfa1ad41a6f5
+      internalID: -385542744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 97
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83158471d422fad489963a78e734e444
+      internalID: 678665739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank2_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 78
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded0fca66d3ff0a47b4171774ac20410
+      internalID: 574083888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 78
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb11a0273ae8b8d4bb0dfbdbffdcd0ed
+      internalID: 1718489991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank2_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 78
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e906ae532a538a48b3fb08a9bc460e0
+      internalID: 1315430201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShotgunTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 78
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bb70fa1e10c8744be4ee1aa197cd7b
+      internalID: -16900884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 178
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cec76318127f4d49867374f96844b81
+      internalID: -706413246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 178
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adb3c207a3ce134d862219d0b057c87
+      internalID: 1094103019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone1_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a747983875244548a99053eef44332d
+      internalID: 1480384122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone1_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f163e4b45161c78459be7ae8f783be11
+      internalID: 1249455584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone2_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1dd18575d8529429209773f5c03000
+      internalID: 812461133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drone2_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 141
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aba73c1bc1f98d4192ad44556233565
+      internalID: -312581245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4968495100b944b915208091717238
+      internalID: 201935409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98797505283868241a04cb0a4a9cdb18
+      internalID: 2071027462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16907b02eb4e28743b66393ff3e13046
+      internalID: 1365603979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ea43c10d7eef44297561cf7ef71c6c
+      internalID: -263509733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f144d97bda76464bb4ed0afd8fdf026
+      internalID: 476285364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387d24ab1ed459f4aac5a4de4348ab43
+      internalID: -666742688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank1_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa84464ba9e98854692272abf5da947d
+      internalID: 1895504041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank1_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be92ab3f78e8914694020a2da5a1f40
+      internalID: -1364515221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank1_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d0b1e5bfcb686438e43b5d746ab8aa
+      internalID: -1506346064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a6cfdd8a243024a9bf18813574be37
+      internalID: -17545532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e9cac1129befe4688eb48b766375dd
+      internalID: 2131840728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank2_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c505706e18bb76498329029320112f2
+      internalID: 2127016652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank2_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f97cea4e302f704eb019e26c26dacda
+      internalID: 596133066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank2_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd414e99191d5d24baa788f7ca6602ce
+      internalID: -1873872474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SplashTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2773974799e6db343b5520e3d3d1448f
+      internalID: 443279113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a102d0d0e090c0a47ac37723476e8713
+      internalID: -483087749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412c8b1dacc665944ad885e2cc4d29ea
+      internalID: -838129050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803a09ca20630b346b51fd2b3a4f1e08
+      internalID: 1251093607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b998c2b104b65c546803619f2373c59d
+      internalID: -954994141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank1_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b02aa4a5a4ff624aae5b715d27f1757
+      internalID: 688661650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank1_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0d7807ff804164a86d22e146b7d32f
+      internalID: 380958637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank1_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a735abe8e00e74da9996e3c21af243
+      internalID: -544994477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 26
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae03907593649654e86e63c800435710
+      internalID: 1719905117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank2_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a99f342684e80d40b85d9b80ecac82b
+      internalID: -250448904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank2_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b031428801b3f54eab4489e6ef6a605
+      internalID: -439217025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank2_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b752d647f68a25144b14a16bfbca2bc2
+      internalID: -823869589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZapTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eca93c456a0334a9b3858652c7ba83
+      internalID: -368236347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 114
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e67d151572fc24d950be356d4d31ba
+      internalID: -1779187626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 114
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b4ecb88d065eb428b59e1395b74156
+      internalID: -1318285893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 114
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5501e7f87ec143a50d4a8678c4d87
+      internalID: 398902557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 114
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366ebb2a33ac15f41a09b3c1e825d9ef
+      internalID: 2086309071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 114
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7155761a8799d3043af9f0ad486e18c1
+      internalID: -343536128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank1_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 87
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21755de6eb9f94a41b70c46dd4d52a51
+      internalID: 1995348156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank1_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 87
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce22094118e3f6b48bb318178463ba8c
+      internalID: -1042966235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank1_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 87
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3269af9995228404cb7818991b63d316
+      internalID: 59522627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank1_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74d0c0c3eae3274383c327ca3e31483
+      internalID: 1525734407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 87
+        width: 19
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59ea40f246dcb145a07be3f0ac6e5f1
+      internalID: -1800365315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank2_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 59
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea82ca264e303494f9780bc5633a9edf
+      internalID: -1319518297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank2_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 59
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187295ca335110a429119dedf2917286
+      internalID: 1139172107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank2_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 59
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b94c02b0d44e409ba8006158f9a7e
+      internalID: -1770035952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank2_3
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 59
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3155a66fd9e4d9d429eea7314c882fd9
+      internalID: 309873012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DrillTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 59
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119a523bc0ebab8438155128f68c93ce
+      internalID: -1880230423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c776a399d0d0fb459efcbecfc2d975b
+      internalID: 279531561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ee4d6531834d24ba0132ddf55a87e4
+      internalID: -1280674717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff7f149b7c2f6740b32520d892acd75
+      internalID: -1473396220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039fb830a79b2284bb7f879a3be2cb61
+      internalID: 1405519062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fb39326a951ec47955910f826c80e6
+      internalID: -2121848469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f780285596f0c9f47a0c75d1b031e658
+      internalID: 1577563514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003b7a103e9bd3c489c7a58859e989bf
+      internalID: -82729466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4787d99ba45abe4dac5db11740c64b5
+      internalID: -414546910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 234
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7d90749ee7ea548af968eade6b947e
+      internalID: -1513489862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8ad65ac6266064ea8372010ebc00e7
+      internalID: -1413792723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55fa3ccf3b893b43a8fa0eb9e248031
+      internalID: 1676379232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1f517f15fe48409e3f51fad7045af
+      internalID: -1210279381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed982611560a6e44a5fbe89d22dff92
+      internalID: 1837899968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a19a0c19bb434bac2eb84e919d2dc
+      internalID: 1196216233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b672dbc31584a4eb562ed92c325d22
+      internalID: -1045081604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0d8555ac8ccb04dbdd5ae1ce96f035
+      internalID: 460602076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc01c79601c23a441ac47fb5201bc9da
+      internalID: -1370550584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 214
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1125d42689a8b74588e00b8ddf66f12
+      internalID: -1895997680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba08cc7d1ff45de4197f14d4de6cde5a
+      internalID: 1129639046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b66f156f5f58a45a788a3705508b89
+      internalID: 1972823705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b766b02db5e4d45b7a073af0d2ec12
+      internalID: -1671267129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64168a5cbacc52440891dec44593531d
+      internalID: -2044220743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_4
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a2824270030d54293480bce484c48d
+      internalID: -1020570163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_5
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f3edd0540d00a48a36062a7283fd0c
+      internalID: -656407415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad21193320f73a4f99b06295cc211d7
+      internalID: 1887058076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_7
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4f043dd70b868439d139f3758d7121
+      internalID: -1010626036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlimeTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd5f7eeb84841442aa012718d8aad54
+      internalID: 1166197522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 166
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17241165c00a5bf48832eb7816be66af
+      internalID: 782726928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 166
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c747446d8312643afea8e913f7e541
+      internalID: 174560753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 166
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b533b817a453e4ca4b1c1af7cca80a
+      internalID: 1779738630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 166
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b947bf9b54bf4d40a9c578534a425c7
+      internalID: 326413427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank_Solid
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 166
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3827e7f8f0df2e84ab9aee5fb0a9273a
+      internalID: 1642556673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank1_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 146
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e4f85e4e0370247912164324d56cd2
+      internalID: -1371464056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank1_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 146
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d829dc406a80418930552348fd29d
+      internalID: -1388018304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank1_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 146
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704b907d539438040beb513d61e7253b
+      internalID: -462285448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank1_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 146
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd297c8dd7aa1443a94152f56bf23c0
+      internalID: -576149752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank1_Solid
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 146
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46633e57a2492c242b668ac75acc614a
+      internalID: 602801185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank2_0
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 125
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6a5da4a7e1d6b478e3d7cb3cddb4ce
+      internalID: -60574130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank2_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 125
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c72d51d407f0404bac25f31c4b43969
+      internalID: 188873902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank2_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 125
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be82694ab245f442a5ccf068ebd3b10
+      internalID: -276355461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank2_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 125
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f7abd6aa6e9d54a8de4d9050ca1cc3
+      internalID: 1190097516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MortarTank2_Solid
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 125
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a0ace19d54bb54193408d865bd522e
+      internalID: 357097572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 17ca761319b1d214082245422fa7b41d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CommonTank1_0: -230896736
+      CommonTank1_1: -1622439028
+      CommonTank1_2: 511750878
+      CommonTank1_Solid: 1505908874
+      CommonTank2_0: 753899919
+      CommonTank2_1: 1227850772
+      CommonTank2_2: 612737150
+      CommonTank2_Solid: 1577816238
+      CommonTank_0: -1898023554
+      CommonTank_1: 54507961
+      CommonTank_2: -1937147345
+      CommonTank_Solid: -942687650
+      DrillTank1_0: 1995348156
+      DrillTank1_1: -1042966235
+      DrillTank1_2: 59522627
+      DrillTank1_3: 1525734407
+      DrillTank1_Solid: -1800365315
+      DrillTank2_0: -1319518297
+      DrillTank2_1: 1139172107
+      DrillTank2_2: -1770035952
+      DrillTank2_3: 309873012
+      DrillTank2_Solid: -1880230423
+      DrillTank_0: -1779187626
+      DrillTank_1: -1318285893
+      DrillTank_2: 398902557
+      DrillTank_3: 2086309071
+      DrillTank_Solid: -343536128
+      Drone1_0: 1480384122
+      Drone1_1: 1249455584
+      Drone2_0: 812461133
+      Drone2_1: -312581245
+      DroneTank1_0: -361214459
+      DroneTank1_1: 1634272685
+      DroneTank1_2: -627550750
+      DroneTank1_Solid: 1718979340
+      DroneTank2_0: 340284242
+      DroneTank2_1: -1455744960
+      DroneTank2_2: 123495130
+      DroneTank2_Solid: 932625251
+      DroneTank_0: 714943992
+      DroneTank_1: -2109402529
+      DroneTank_2: -1516761669
+      DroneTank_Solid: 913829822
+      Drone_0: -706413246
+      Drone_1: 1094103019
+      DualGunTank1_0: 2359364
+      DualGunTank1_1: 2060305757
+      DualGunTank1_2: -1069476026
+      DualGunTank1_3: -996034298
+      DualGunTank1_Solid: -1721084137
+      DualGunTank2_0: -196338234
+      DualGunTank2_1: 513466455
+      DualGunTank2_2: 1104596808
+      DualGunTank2_3: 1563174390
+      DualGunTank2_Solid: -772059877
+      DualGunTank_0: -1682761368
+      DualGunTank_1: -1736469906
+      DualGunTank_2: 174997472
+      DualGunTank_3: -17287004
+      DualGunTank_Solid: -1512571923
+      FlamethrowerTank1_0: 982522274
+      FlamethrowerTank1_1: 1240401422
+      FlamethrowerTank1_2: 100240431
+      FlamethrowerTank1_3: 1857869592
+      FlamethrowerTank1_Solid: -1561055637
+      FlamethrowerTank2_0: -48327929
+      FlamethrowerTank2_1: -371900095
+      FlamethrowerTank2_2: 488805825
+      FlamethrowerTank2_3: -207215667
+      FlamethrowerTank2_Solid: -1783442878
+      FlamethrowerTank_0: -1978220095
+      FlamethrowerTank_1: 439166430
+      FlamethrowerTank_2: -393686814
+      FlamethrowerTank_3: 827163536
+      FlamethrowerTank_Solid: -1841112417
+      HeavyTank1_0: -1963923724
+      HeavyTank1_1: -237819157
+      HeavyTank1_2: -2021811217
+      HeavyTank1_3: -823902771
+      HeavyTank1_Solid: 2025582221
+      HeavyTank2_0: 524696922
+      HeavyTank2_1: 570842928
+      HeavyTank2_2: -1068643175
+      HeavyTank2_3: -1630897833
+      HeavyTank2_Solid: -1664509659
+      HeavyTank_0: -46776394
+      HeavyTank_1: -321480849
+      HeavyTank_2: -1639418747
+      HeavyTank_3: -1198416835
+      HeavyTank_Solid: -2044034339
+      MortarTank1_0: -1371464056
+      MortarTank1_1: -1388018304
+      MortarTank1_2: -462285448
+      MortarTank1_3: -576149752
+      MortarTank1_4: -1169526537
+      MortarTank1_5: -1052866622
+      MortarTank1_Solid: 602801185
+      MortarTank2_0: -60574130
+      MortarTank2_1: 188873902
+      MortarTank2_2: -276355461
+      MortarTank2_3: 1190097516
+      MortarTank2_4: -261294417
+      MortarTank2_5: -351966517
+      MortarTank2_Solid: 357097572
+      MortarTank_0: 782726928
+      MortarTank_1: 174560753
+      MortarTank_2: 1779738630
+      MortarTank_3: 326413427
+      MortarTank_4: -1584483062
+      MortarTank_5: -842637100
+      MortarTank_Solid: 1642556673
+      RailGunTank1_0: -33151502
+      RailGunTank1_1: -2125508263
+      RailGunTank1_2: -1599798081
+      RailGunTank1_3: -660750880
+      RailGunTank1_Solid: -1045685661
+      RailGunTank2_0: -878279314
+      RailGunTank2_1: 1501717605
+      RailGunTank2_2: -747327254
+      RailGunTank2_3: 1526647723
+      RailGunTank2_Solid: 1463483019
+      RailGunTank_0: -931507860
+      RailGunTank_1: -1230783568
+      RailGunTank_2: 782717582
+      RailGunTank_3: 866637097
+      RailGunTank_Solid: -1112376590
+      ShotgunTank1_0: 1205630121
+      ShotgunTank1_1: -323363016
+      ShotgunTank1_2: -385542744
+      ShotgunTank1_Solid: 678665739
+      ShotgunTank2_0: 574083888
+      ShotgunTank2_1: 1718489991
+      ShotgunTank2_2: 1315430201
+      ShotgunTank2_Solid: -16900884
+      ShotgunTank_0: 555173502
+      ShotgunTank_1: -251215126
+      ShotgunTank_2: 1836277947
+      ShotgunTank_Solid: 727417981
+      SlimeTank1_0: -1413792723
+      SlimeTank1_1: 1676379232
+      SlimeTank1_2: -1210279381
+      SlimeTank1_3: 1837899968
+      SlimeTank1_4: 1196216233
+      SlimeTank1_5: -1045081604
+      SlimeTank1_6: 460602076
+      SlimeTank1_7: -1370550584
+      SlimeTank1_Solid: -1895997680
+      SlimeTank2_0: 1129639046
+      SlimeTank2_1: 1972823705
+      SlimeTank2_2: -1671267129
+      SlimeTank2_3: -2044220743
+      SlimeTank2_4: -1020570163
+      SlimeTank2_5: -656407415
+      SlimeTank2_6: 1887058076
+      SlimeTank2_7: -1010626036
+      SlimeTank2_Solid: 1166197522
+      SlimeTank_0: 279531561
+      SlimeTank_1: -1280674717
+      SlimeTank_2: -1473396220
+      SlimeTank_3: 1405519062
+      SlimeTank_4: -2121848469
+      SlimeTank_5: 1577563514
+      SlimeTank_6: -82729466
+      SlimeTank_7: -414546910
+      SlimeTank_8: 1082286789
+      SlimeTank_Solid: -1513489862
+      SplashTank1_0: -666742688
+      SplashTank1_1: 1895504041
+      SplashTank1_2: -1364515221
+      SplashTank1_3: -1506346064
+      SplashTank1_Solid: -17545532
+      SplashTank2_0: 2131840728
+      SplashTank2_1: 2127016652
+      SplashTank2_2: 596133066
+      SplashTank2_3: -1873872474
+      SplashTank2_Solid: 443279113
+      SplashTank_0: 201935409
+      SplashTank_1: 2071027462
+      SplashTank_2: 1365603979
+      SplashTank_3: -263509733
+      SplashTank_Solid: 476285364
+      ZapTank1_0: 688661650
+      ZapTank1_1: 380958637
+      ZapTank1_2: -544994477
+      ZapTank1_Solid: 1719905117
+      ZapTank2_0: -250448904
+      ZapTank2_1: -439217025
+      ZapTank2_2: -823869589
+      ZapTank2_Solid: -368236347
+      ZapTank_0: -483087749
+      ZapTank_1: -838129050
+      ZapTank_2: 1251093607
+      ZapTank_Solid: -954994141
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
